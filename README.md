@@ -14,6 +14,7 @@ Base Case – Stops the recursion from continuing indefinitely.
 Recursive Case – Calls the function itself with a modified argument.
 
 ## ✅ General Syntax:
+```cpp
 ReturnType functionName(Parameters) {
     if (base condition) {
         // base case
@@ -23,6 +24,7 @@ ReturnType functionName(Parameters) {
         return functionName(modified parameters);
     }
 }
+```
 
 ---
 
